@@ -1,3 +1,5 @@
+console.log('==============================================');
+
 const maxOfTwoNumbers = (x, y) => {
     if (x >= y) {
         return x;
