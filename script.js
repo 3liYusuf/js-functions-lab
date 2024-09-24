@@ -114,7 +114,7 @@ console.log('Exercise 10 Result:', calculateGrade(85));
 console.log('==============================================');
 
 const createUsername = (firstName, lastName) => {
-    return firstName[0] + firstName[1] + firstName[2] + lastName[0] + lastName[1] + lastName[2] + (firstName.length + lastName.length)
+    return firstName.slice(0, 3) + lastName.slice(0, 3) + (firstName.length + lastName.length)
 }
 
 console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
